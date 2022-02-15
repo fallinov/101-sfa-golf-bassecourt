@@ -1,0 +1,39 @@
+@media screen and (min-width: 660px){
+
+	#logo{
+		display: inline-block;
+		vertical-align: middle;
+		margin-left: 5%;
+		text-align: left;
+		width: 20%;
+	}
+
+	nav{
+		vertical-align: middle;
+		display: inline-block;
+		width: 75%;
+		text-align: right;
+	}
+
+	nav li,
+	nav a {
+		display: inline;
+	}
+
+    section {
+        max-width: 800px;
+    }
+
+	.intro {
+		display: inline-block;
+		vertical-align: middle;
+		width : 55%;
+		margin-right: 5%;
+	}
+
+	.intro + figure {
+		display: inline-block;
+		vertical-align: middle;
+		width: 40%;
+	}
+}

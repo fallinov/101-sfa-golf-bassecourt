@@ -1,0 +1,181 @@
+
+/*
+code couleurs :
+
+- vert foncé	#388E3C
+- vert 			#4CAF50
+- vert clair	#C8E6C9
+- vert pétant	#CDDC39
+- noir		 	#212121
+- gris foncé	#727272
+- gris clair	#B6B6B6
+
+*/
+
+/******************
+GENERAL
+******************/
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	font-family: Verdana, arial, sans-serif;
+	font-size: 1em;
+	line-height: 1.5;
+	background: #fff;
+	color: #212121;
+}
+
+h1 {
+	color:#388E3C;
+}
+
+h2,
+a {
+	color: #4CAF50;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color:#CDDC39;
+}
+
+img {
+	max-width: 100%;
+}
+
+/****************** 
+ENTETE DU SITE 
+******************/
+header {
+	padding: 20px 0 0;
+	background-color: #4CAF50;
+	border-top: 20px solid #388E3C;
+}
+
+header h1 {
+	display: none;
+}
+
+#logo{
+	display: block;
+	text-align: center;
+}
+
+/****************** 
+MENU DE NAVIGATION 
+******************/
+nav {
+	text-align: center;
+	padding: 10px 0;
+	list-style-type: none;
+}
+
+nav ul{
+	padding: 0;
+}
+
+nav a {
+	display: block;
+	font-weight: 800;
+	padding: 10px;
+	margin:5px 0;
+}
+
+nav a,
+nav a:visited {
+	color: white;
+}
+
+
+nav a.selected,
+nav a:hover {
+	color:#CDDC39;
+}
+
+/******************
+SECTION principale
+******************/
+section {
+	margin: 0 auto;
+	padding: 20px;
+}
+
+
+figure {
+	background-color: #C8E6C9;
+	padding: 10px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+figure img {
+	display: block;
+	width: 100%;
+}
+
+figure figcaption {
+	padding: 10px 0 5px;
+	text-align: center;
+	font-size: .9em;
+	color: #ffffff;
+    font-style: italic;
+}
+
+ul.balles {
+	list-style-image: url('../img/balle-golf.png');
+}
+
+table {
+	border-collapse:collapse;
+}
+
+table,
+table td,
+table th {
+	border:1px solid #C8E6C9;
+	padding:4px 6px;
+	text-align: left;
+}
+
+table caption {
+    font-size:0.8em;
+    padding-bottom:5px;
+}
+
+table th {
+	background-color:#C8E6C9;
+}
+
+table tbody td + td,
+table tbody td + td + td {
+	text-align:right;
+}
+
+table tfoot th {
+	font-size: .8em;
+	text-align: right;
+	font-weight: normal;
+}
+
+/****************** 
+PIED DE PAGE
+******************/
+footer {
+	color:#B6B6B6;
+	text-align: center;
+	padding: 20px 20px 60px;
+	margin-top: 30px;
+
+	background-image: url("../img/paysage-practice-golf-club-bassecourt.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+
+    height: 120px;
+}
